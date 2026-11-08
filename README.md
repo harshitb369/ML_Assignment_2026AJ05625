@@ -21,6 +21,7 @@ https://github.com/harshitb369/ML_Assignment_2026AJ05625
 
 ### Observations
 ML Model Name       |       Observation about model performance
+
 Logistic Regression | "Served as a highly stable linear baseline with strong Precision (83.9%), but struggled with Recall (59.8%),      meaning it successfully identified obvious cancellations but missed more complex edge cases."
 
 Decision Tree       | "Captured non-linear booking patterns beautifully. Thanks to hyperparameter tuning (max_depth and min_samples_split), it avoided severe overfitting and achieved a strong balance of Precision and Recall (F1: 0.751)."
