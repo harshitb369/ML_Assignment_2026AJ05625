@@ -33,4 +33,4 @@ Naive Bayes         | "Achieved high Recall but very poor Precision (55.0%). Its
 Support Vector Machine | "Yielded the lowest overall metrics. Because the dataset was very large and highly dimensional (due to One-Hot Encoding), the SVM struggled to converge. The iterations had to be mathematically capped to prevent system timeouts, making it unscalable for this specific dataset."
 
 **Overall Winner for your dataset?** 
-Based on the metrics above, the K-Nearest Neighbors (KNN) is the overall winner because it achieves the highest combined F1 and MCC score, perfectly balancing precision and recall for this specific cancellation problem.
+K-Nearest Neighbors (KNN) is the overall winner for this dataset. It achieved the highest Accuracy (83.37%), AUC (0.8878), and F1 Score (0.7698). While Logistic Regression had slightly higher precision and SVM had slightly higher recall, KNN provided the highest MCC (0.6411), proving it found the best mathematical balance between catching actual cancellations and avoiding false alarms.
